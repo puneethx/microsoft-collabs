@@ -1,0 +1,97 @@
+.calenderer{
+    margin-top: 6vh;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-bottom: 20vh;
+    .calender{
+        border-radius: 15px;
+        display: flex;
+        background-color: #1A1A1A;
+        .left{
+            flex: 1;
+            border-radius: 15px 0px 0px 15px;
+            display: flex;
+            align-items: center;
+            padding-top: 10vh;
+            flex-direction: column;
+            background-color: #2e2e2e;
+            height: 100vh;
+            .lefttop{
+                margin-bottom: 7vh;
+                .large{
+                    font-size: 20px;
+                    font-weight: normal;
+                    text-align: center;
+                }
+                .small{
+                    margin-top: -2.5vh;
+                    font-size: 12px;
+                    color: #716F6D;
+                    text-align: center;
+                }
+            }
+        }
+        .right{
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            .righttop{
+                margin-top: 10vh;
+                display: flex;
+                justify-content: center;
+                .box{
+                    width: 10vw;
+                    background-color: #212121;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .tube{
+                        width: 10vw;
+                        height: 1vh;
+                        background-color: red;
+                        border-radius: 10px;
+                    }
+                    .one{
+                        background-color: #29A1A0;
+                    }
+                    .two{
+                        background-color: #D1CFD0;
+                    }
+                    .three{
+                        background-color: #B6FFCB;
+                    }
+                    .four{
+                        background-color: #FDF2A0;
+                    }
+                    .five{
+                        background-color: #FFB1B0;
+                    }
+                    .tuber{
+                        height: 10vh;
+                        display: flex;
+                        justify-content: center;
+                        border-radius: 10px;
+                        align-items: center;
+                        border: 1px solid #2e2e2e;
+                    }
+                }
+            }
+            .rightbottom{
+                display: flex;
+                align-items: center;
+                margin-top: 6vh;
+                flex-direction: column;
+                border-radius: 10px;
+                margin-right: 12vw;
+                margin-left: 12vw;
+                background-color: #212121;
+                img{
+                    width: 30vw;
+                    margin-top: 4vh;
+                    margin-bottom: 10vh;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

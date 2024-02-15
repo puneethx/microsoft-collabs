@@ -1,0 +1,44 @@
+.taskbar{
+    background-color: #2E2E2E;
+    width: 42vw;
+    height: 12vh;
+    z-index: 100;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 5vh;
+    left: 26vw;
+    font-size: 16px;
+    gap: 7vw;
+    .bar{
+        display: flex;
+        margin-top: 3vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        p{
+            margin-top: 0.5vh;
+            color: white;
+            text-decoration: underline;
+            text-decoration-color:#2E2E2E ;
+        }
+        .calimg{
+            width: 24px;
+        }
+    }
+    .active{
+        font-weight: bold;
+        li{
+            p{
+                color: #F49C06;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.collab{
+    margin-top: 6vh;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-bottom: 20vh;
+    .collabbox{
+        background-color: #2E2E2E;
+        display: flex;
+        border-radius: 10px;
+        .left{
+            background-color: #2e2e2e;
+            border-radius: 10px 0px 0px 10px;
+            flex: 1;
+            height: 100vh;
+            .lefttop{
+                display: flex;
+                justify-content: space-between;
+                margin: 2vw;
+                align-items: center;
+                .lef{
+                    display: flex;
+                    font-size: 24px;
+                    align-items: center;
+                    img{
+                        height: 25px;
+                    }
+                }
+                .rig{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    background-color: #212121;
+                    padding: 4px 10px;
+                    border-radius: 20px;
+                    img{
+                        margin-left: 6px;
+                        height: 12px;
+                    }
+                }
+            }
+            .leftbottom{
+                background-color: #212121;
+                width: 17vw;
+                border-radius: 10px;
+                margin-left: 1vw;
+                .textuser{
+                    display: flex;
+                    align-items: center;
+                    border-top: 1px solid #2e2e2e;
+                    border-bottom: 1px solid #2e2e2e;
+                    img{
+                        margin-right: 10px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        .right{
+            background-color: #1A1A1A;
+            flex: 4;
+            border-radius: 0px 10px 10px 0px;
+            position: relative;
+            .righttop{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 3.2vh;
+                padding-bottom: 2vh;
+                border-bottom: 1px solid #2e2e2e;
+                img{
+                    width: 40px;
+                }
+            }
+            .rightbottom{
+                margin-left: 2vw;
+                margin-top: 5vh;
+                .leftp{
+                    background-color: #245D45;
+                    width: fit-content;
+                    border-radius: 18px;
+                    display: flex;
+                    padding: 7px 12px;
+                }
+                .rightp{
+                    background-color: #24345D;
+                    width: fit-content;
+                    padding: 7px 12px;
+                    border-radius: 18px;
+                }
+            }
+            .type{
+                width: 40vw;
+                background-color: #252525;
+                height: 6vh;
+                display: flex;
+                align-items: center;
+                padding-left: 1vw;
+                position: absolute;
+                bottom: 10vh;
+                margin-left: 15vw;
+                border-radius: 10px;
+                input{
+                    outline: none;
+                    border: none;
+                    width: 10vw;
+                    color: white;
+                    font-family: "poppins";
+                    background-color: #252525;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.lead{
+    width: 30vw;
+    height: 50vh;
+    background-color: #404045;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(64,64,69,0.6);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(64,64,69,0.6);
+    box-shadow: 5px 5px 10px 0px rgba(64,64,69,0.6);
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .login {
+            display: flex;
+            flex-direction: column;
+            width: 25vw;
+            h2{
+                color: #F49C06;;
+            }
+            .form{
+                display: flex;
+                margin-right: 1vw;
+                flex-direction: column;
+                align-items:end;
+                gap: 4vh;
+                .button{
+                    float: right;
+                    button{
+                        color: #F49C06;
+                        background-color: #212121;
+                        font-family: "Poppins";
+                        padding: 7px 12px;
+                        border-radius: 5px;
+                        border: none;
+                        outline: none;
+                        font-size: 14px;
+                        font-weight: 400;
+                        cursor: pointer;
+                    }
+                }
+        
+                .email{
+                    input{
+                        width: 23vw;
+                        height: 4vh;
+                        font-size: 16px;
+                        font-family: "poppins";
+                        border: none;
+                        background-color: #404045;
+                        border: none;
+                        border-bottom: 1px solid white;
+                        outline: none;
+                    }
+                }
+                .password{
+                    input{
+                        width: 23vw;
+                        height: 4vh;
+                        font-size: 16px;
+                        border: none;
+                        border-bottom: 1px solid white;
+                        background-color: #404045;
+                        outline: none;
+                        font-family: "poppins";
+                    }
+                }
+            }
+            ul{
+                margin-top: 5vh;
+                margin-left: -0.5vw;
+                margin-bottom: 0;
+                display: flex;
+                gap: 1.5vw;
+                li{
+                    list-style: none;
+                    cursor: pointer;
+                    color: white;
+                    text-decoration: underline;
+                    text-decoration-color: #404045;
+                }
+            }
+        }
+    }
+}
