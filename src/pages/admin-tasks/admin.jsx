@@ -3,10 +3,11 @@ import "./admin.scss"
 import plus from "../../assets/Plus.svg"
 import search from "../../assets/Search.svg"
 import automation from "../../assets/automation.svg"
+import { Link } from 'react-router-dom'
 
 const admin = () => {
     return (
-        <div className='admTasks'>
+        <div className='admasks'>
             <div className="left">
                 <div className='name'>
                     Collabs
@@ -75,8 +76,7 @@ const admin = () => {
                     <div className='teamsroute'>
                         <div>
                             <ul>
-                                <li>Windows and Devices Team</li>
-                                <li>Cloud and Enterprise Team</li>
+                                <Link to="/windows-devices"><li>Cloud and Enterprise Team</li></Link>
                                 <li>Artificial Intelligence Team</li>
                                 <li>Office Products Group</li>
                                 <li>Experience & Devices Group</li>

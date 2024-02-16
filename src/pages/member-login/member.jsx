@@ -24,7 +24,7 @@ const member = () => {
         <div className='member'>
             <div className="center">
                 <div className="login">
-                    <h2>Sign In</h2>
+                    <h2>Member Sign In</h2>
                     <form onSubmit={handleSubmit}>
                         <div className="form">
                             <div className="email">
@@ -33,9 +33,11 @@ const member = () => {
                             <div className="password">
                                 <input type="password" placeholder='password' value={password} onChange={handlePasswordChange} />
                             </div>
-                            <div className="button">
-                                <button type="submit">Collab</button>
-                            </div>
+                            <Link to="/">
+                                <div className="button">
+                                    <button type="submit">Collab</button>
+                                </div>
+                            </Link>
                         </div>
                     </form>
                     <ul>

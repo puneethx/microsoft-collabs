@@ -4,6 +4,33 @@ import tune from "../../assets/Tune.svg"
 import search from "../../assets/Search.svg"
 
 const member = () => {
+    const apiUrl = 'http://127.0.0.1:5000/task/member-tasks';
+
+    const postData = {
+        "member_id":7001
+    }
+    const requestOptions= {
+        method:'POST',
+        headers:{
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(postData),
+    }
+
+    fetch(apiUrl,requestOptions)
+    .then(response => {
+        if(!response.ok){
+            throw new Error("HTTP error! status: ${response.status}");
+        }
+        return response.json()
+    })
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error(error);
+    })
+
     return (
         <div className='memTasks'>
             <div className="left">
@@ -27,9 +54,9 @@ const member = () => {
                 <div className="tags">
                     <p className='tagName'>Tags</p>
                     <div className="tagTags">
-                        <p className='priority'>#Priority</p>
-                        <p className='low'>#Low</p>
-                        <p className='improve'>#Improvements</p>
+                        <p className='priority'>Compare Accuracy</p>
+                        <p className='low'>JIRA Task</p>
+                        <p className='improve'>Improvements</p>
                     </div>
                 </div>
                 <div className="daily">
@@ -55,7 +82,7 @@ const member = () => {
             <div className="right">
                 <div className="rightTop">
                     <div>
-                        Good Afternoon, Puneeth
+                        Backend still need to be connected, it runs on local host
                     </div>
                     <div className='icons'>
                         <img src={search} alt="search" />
@@ -65,22 +92,22 @@ const member = () => {
                 <div className="status">
                     <div className="todo">
                         <p className='toname'>To Do</p>
-                        <p><span className='improve'>#Improvements</span><br/>Change the bot name to JARVIS from KIRA.</p>
-                        <p><span className='priority'>#Priority</span><br/>Load Screen Pause/Freezing after clicking the download button.</p>
+                        <p><span className='improve'>Improvements</span><br/>Change the bot name to JARVIS from KIRA.</p>
+                        <p><span className='priority'>Compare Accuracy</span><br/>Load Screen Pause/Freezing after clicking the download button.</p>
                     </div>
                     <div className="progress">
                         <p className='proname'>In Progress</p>
-                        <p><span className='priority'>#Priority</span><br />Run new batch suites and compare accuracy with before results.</p>
-                        <p><span className='low'>#Low</span><br/>Request JIRA Access.</p>
-                        <p><span className='improve'>#Improvements</span><br />Change the bot name to JARVIS from KIRA.</p>
-                        <p><span className='improve'>#Improvements</span><br />Change the bot name to JARVIS from KIRA.</p>
+                        <p><span className='priority'>Compare Accuracy</span><br />Run new batch suites and compare accuracy with before results.</p>
+                        <p><span className='low'>JIRA Task</span><br/>Request JIRA Access.</p>
+                        <p><span className='improve'>Improvements</span><br />Change the bot name to JARVIS from KIRA.</p>
+                        <p><span className='improve'>Improvements</span><br />Change the bot name to JARVIS from KIRA.</p>
                     </div>
                     <div className="done">
                         <p className='doname'>Done</p>
-                        <p><span className='low'>#Low</span><br />Change the bot name to JARVIS from KIRA.</p>
-                        <p><span className='priority'>#Priority</span><br/>Load Screen Pause/Freezing after clicking the download button.</p>
-                        <p><span className='priority'>#Priority</span><br />Run new batch suites and compare accuracy with before results.</p>
-                        <p><span className='improve'>#Improvements</span><br />Change the bot name to JARVIS from KIRA.</p>
+                        <p><span className='low'>JIRA Task</span><br />Change the bot name to JARVIS from KIRA.</p>
+                        <p><span className='priority'>Compare Accuracy</span><br/>Load Screen Pause/Freezing after clicking the download button.</p>
+                        <p><span className='priority'>Compare Accuracy</span><br />Run new batch suites and compare accuracy with before results.</p>
+                        <p><span className='improve'>Improvements</span><br />Change the bot name to JARVIS from KIRA.</p>
                     </div>
                 </div>
             </div>

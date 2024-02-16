@@ -70,6 +70,27 @@ const windevices = () => {
                         <img src={auto} alt="" />
                     </div>
                 </div>
+                <div className="status">
+                    <div className="todo">
+                        <p className='toname'>Assigned</p>
+                        <p><span className='improve'>Improvements</span><br/>Change the bot name to JARVIS from KIRA.<br/><span className='assignedTo'>To Puneeth </span></p>
+                        <p><span className='priority'>Change Accuracy</span><br/>Load Screen Pause/Freezing after clicking the download button.<br/><span className='assignedTo'>To Pablo </span></p>
+                    </div>
+                    <div className="progress">
+                        <p className='proname'>Unassigned</p>
+                        <p><span className='priority'>Change Accuracy</span><br />Run new batch suites and compare accuracy with before results.<br/><span className='assignTo'>To Charan </span></p>
+                        <p><span className='low'>JIRA Task</span><br/>Request JIRA Access.<br/><span className='assignTo'>To Aniesh </span></p>
+                        <p><span className='improve'>Improvements</span><br />Change the bot name to JARVIS from KIRA.<br/><span className='assignTo'>To Puneeth </span></p>
+                        <p><span className='improve'>Improvements</span><br />Change the bot name to JARVIS from KIRA.<br/><span className='assignTo'>To Jahnavi </span></p>
+                    </div>
+                    <div className="done">
+                        <p className='doname'>Completed</p>
+                        <p><span className='low'>JIRA Task</span><br />Change the bot name to JARVIS from KIRA.<br/><span className='doneby'>By Puneeth, 13:12</span></p>
+                        <p><span className='priority'>Change Accuracy</span><br/>Load Screen Pause/Freezing after clicking the download button.<br/><span className='doneby'>By Jahnavi, 17:12</span></p>
+                        <p><span className='priority'>Change Accuracy</span><br />Run new batch suites and compare accuracy with before results.<br/><span className='doneby'>By Aniesh, 21:32</span></p>
+                        <p><span className='improve'>Improvements</span><br />Change the bot name to JARVIS from KIRA.<span className='doneby'>By Charan, 13:12</span></p>
+                    </div>
+                </div>
             </div>
         </div>
     )
