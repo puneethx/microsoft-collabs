@@ -20,9 +20,9 @@ COLLABS is a comprehensive and user-friendly web-based application designed to s
 
 ----
 ### Glance of UI
-![img1](imgs/img1.png)
-![img2](imgs/img2.png)
-![img3](imgs/img3.png)
+![img1](https://github.com/puneethx/microsoft-collabs/assets/125672573/f4dc702f-6b63-4fba-b713-3397f7bd2015)
+![img2](https://github.com/puneethx/microsoft-collabs/assets/125672573/2fce7590-c15b-4fe2-872a-7d5d7d4a457b)
+![img3](https://github.com/puneethx/microsoft-collabs/assets/125672573/90d63088-eb32-47be-b225-3ccd4778ff0a)
 
 ----
 ### About Us
