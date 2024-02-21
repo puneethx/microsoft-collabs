@@ -1,5 +1,5 @@
 # Welcome To Collabs
-![banner](readmeBanner.png)
+![readmeBanner](https://github.com/puneethx/microsoft-collabs/assets/125672573/90dfc4f5-49fc-4b66-984a-6fcbe4f1a1d1)
 ----
 ### What is Collabs?
 
